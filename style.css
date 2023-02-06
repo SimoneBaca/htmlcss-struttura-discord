@@ -1,32 +1,42 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container {
-    display: flex;
-    margin: 1rem 0;
-    justify-content:center;
-}
-
-
-.container {
-    background-color:blue;
-    padding:  2rem;
-    margin: 1rem;
-    height: 300px;
-   
-}
-.block {
+.debug #app_header {
     height: 5rem;
-    border: 1px solid red;
-    width: 100px;
+    background-color: lightblue;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
 }
-.block {
-    background-color:pink;
-    padding:  6rem;
-    margin: 1rem;
-    width: 600px;
-    height: 200px;
+
+
+.bars {
+    border: 1px dashed black;
+    width: 20%;
+    padding: 1rem;
+    margin: 0rem;
+    background-color: orange;
+
+}
+
+.bars2 {
+    border: 1px dashed black;
+    padding: 1rem;
+    margin: 0rem;
+    width: 40%;
+    background-color: orange;
+}
+
+.bars3 {
+    border: 1px dashed black;
+    padding: 1rem;
+    margin: 0rem;
+    width: 20%;
+    background-color: orange;
 }
