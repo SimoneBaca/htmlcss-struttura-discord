@@ -176,7 +176,7 @@
 }
 
 .item {
-    background-color:cadetblue;
+    background-color: cadetblue;
     width: 150px;
     margin: 1rem 0;
     border: 1px dashed black;
@@ -184,35 +184,39 @@
 }
 
 .lastbar {
-   display: flex;
+    display: flex;
     justify-content: center;
-    
+
 }
 
 .writebar {
     width: 800px;
     padding: 1rem;
     margin: 1rem;
-    background-color:cadetblue;
+    background-color: cadetblue;
     height: 50px;
     display: flex;
     justify-content: space-between;
-   
-    
-}
-.button1{ 
-    border: 1px dashed black;
-    padding: 1rem;
-    margin: 0rem;
-    width: 20px;
-    background-color: palevioletred;
+
 
 }
-.button2{
+
+.button1 {
     border: 1px dashed black;
     padding: 1rem;
     margin: 0rem;
-    width: 20px;
+    width: 50px;
     background-color: palevioletred;
+
+
+}
+
+.button2 {
+    border: 1px dashed black;
+    padding: 1rem;
+    margin: 0rem;
+    width: 70px;
+    background-color: palevioletred;
+
 
 }
